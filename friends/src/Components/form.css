@@ -1,0 +1,106 @@
+form{
+    background: white;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    margin: 25px auto;
+    padding-bottom: 25px;
+}
+
+strong {
+    font-weight: 700;
+    color: aqua;
+    text-shadow: 1px .5px 1px black;
+}
+
+.updateForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.updateForm button{
+    border: 1px solid black;
+    max-width: 150px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+    cursor: pointer;
+    background: white;
+    padding: 15px 25px;
+}
+.updateForm button:hover{
+    border: 1px solid aqua
+}
+
+.inputSection{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputSection input{
+    margin: 10px auto;
+    border: 1px solid black;
+    width: 225px;
+    height: 35px;
+    padding-left: 25px;
+}
+.inputSection  input:focus {
+    outline:none;
+}
+
+.inputSection button{
+    border: 1px solid silver;
+    background-color: white;
+    width: 125px;
+    height: 50px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.inputSection button:hover{
+    border: 1px solid aqua;
+}
+
+
+.friend-card{
+    border: 1px solid black;
+    max-width: 900px;
+    margin: 25px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.exitButton{
+    display: flex;
+    flex-direction: flex-start;
+    position: relative;
+    right: 0px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.exitButtonUpdate{
+    display: flex;
+    flex-direction: flex-start;
+    position: relative;
+    right: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.updateBtn{
+    border: 1px solid black;
+    max-width: 125px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.updateBtn:hover{
+    border: 1px solid aqua;
+}
